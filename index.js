@@ -13,8 +13,8 @@ const fs = require("fs");
   await page.goto(
     "https://authserver-443.webvpn.jsei.edu.cn/authserver/login?service=https%3A%2F%2Fwebvpn.jsei.edu.cn%2Fusers%2Fauth%2Fcas%2Fcallback%3Furl",
   );
-  await page.fill("#username", "2024100913");
-  await page.fill("#password", "05145271Zxc");
+  await page.fill("#username", "123456");
+  await page.fill("#password", "123456");
 
   await Promise.all([
     page.waitForNavigation(),
